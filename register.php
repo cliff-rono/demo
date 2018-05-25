@@ -100,6 +100,17 @@ Author: /
 								<div class="agileinfo-recover">
 								<h3>User Login</h3>
 									<form action="" method="post">
+
+										<select name="user">
+											<option disabled selected>LOGIN AS..</option>
+											<option  value="user">User</option>
+											<option  value="agent">Agents</option>
+											<option  value="superagent">Super Agent</option>
+											<option  value="merchant">Merchant</option>
+										</select>
+
+										<br><br>
+
 										<input type="text" class="email" name="email" placeholder="Email" required="">
 										<input type="password" class="password" name="password" placeholder="Password" required="">
 										<input type="submit" class="send" value="Login">
