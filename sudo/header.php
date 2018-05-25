@@ -47,30 +47,25 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
     								<li>
     									<a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
     									<ul class="gn-submenu">
-    										<li class="mini_list_agile"><a href="transactions.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Transactions</a></li>
-    										<li class="mini_list_w3"><a href="money-accounts.php"> <i class="fa fa-caret-right" aria-hidden="true"></i> Money Accounts</a></li>
-    										<li class="mini_list_w3"><a href=""> <i class="fa fa-caret-right" aria-hidden="true"></i> Standing Orders</a></li>
-    										<li class="mini_list_w3"><a href=""> <i class="fa fa-caret-right" aria-hidden="true"></i> Account Statements</a></li>
-    									</ul>
-    								</li>
-    								<li>
-    									<a href="#"> <i class="fa fa-file-text-o" aria-hidden="true"></i>Loans <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-    									<ul class="gn-submenu">
-    										<li class="mini_list_agile"><a href="request-loan.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Request Loans</a></li>
+    										<li class="mini_list_agile"><a href="agents.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Agents</a></li>
+    										<li class="mini_list_w3"><a href="merchants.php"> <i class="fa fa-caret-right" aria-hidden="true"></i> Merchants</a></li>
+                        <li class="mini_list_w3"><a href="account.php"> <i class="fa fa-caret-right" aria-hidden="true"></i> Company Account</a></li>
+    										<li class="mini_list_w3"><a href="#"> <i class="fa fa-caret-right" aria-hidden="true"></i> Standing Orders</a></li>
+    										<li class="mini_list_w3"><a href="#"> <i class="fa fa-caret-right" aria-hidden="true"></i> Account Statements</a></li>
     									</ul>
     								</li>
 
-    								<li class="page">
-    									<a href="#"><i class="fa fa-files-o" aria-hidden="true"></i> Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-    										 <ul class="gn-submenu">
 
-    									  <li class="mini_list_agile"> <a href="signin.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Sign In</a></li>
-    									   <li class="mini_list_w3"><a href="signup.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Sign Up</a></li>
-    									   <li class="mini_list_agile error"><a href="404.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Error 404 </a></li>
+                    <li class="page">
+                      <a href="#"><i class="fa fa-files-o" aria-hidden="true"></i> REGISTER <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                         <ul class="gn-submenu">
 
-    										<li class="mini_list_w3_line"><a href="calendar.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Calendar</a></li>
-    									</ul>
-    								</li>
+                        <li class="mini_list_agile"> <a href="newagent.php"> <i class="fa fa-caret-right" aria-hidden="true"></i>New Agent</a></li>
+                         <li class="mini_list_w3"><a href="newsuperagent.php"> <i class="fa fa-caret-right" aria-hidden="true"></i>New Super Agent</a></li>
+                         <li class="mini_list_agile error"><a href="newmerchant.php"> <i class="fa fa-caret-right" aria-hidden="true"></i>New Merchant </a></li>
+
+                        </ul>
+                    </li>
 
     							</ul>
     						</div><!-- /gn-scroller -->
